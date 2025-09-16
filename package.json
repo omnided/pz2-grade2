@@ -8,9 +8,6 @@
   },
   "author": "Andrey Budnikov",
   "license": "UNLICENSED"
-}
-
-{
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "eslint . --ext .ts",
