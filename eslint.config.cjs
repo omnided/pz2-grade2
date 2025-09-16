@@ -4,9 +4,9 @@ const prettier = require('eslint-config-prettier');
 
 module.exports = [
   { ignores: ['**/*.cjs'] }, // ігноруємо конфігураційні файли у CJS
-  js.configs.recommended,    // базові правила JS
+  js.configs.recommended, // базові правила JS
   ...tseslint.configs.recommended, // базові правила TS
-  prettier,                  // відключення конфліктів з Prettier
+  prettier, // відключення конфліктів з Prettier
   {
     files: ['**/*.ts'],
     languageOptions: {
@@ -26,4 +26,3 @@ module.exports = [
     },
   },
 ];
-
