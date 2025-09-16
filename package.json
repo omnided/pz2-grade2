@@ -1,0 +1,11 @@
+{
+  "name": "homework",
+  "version": "0.0.0",
+  "description": "something",
+  "main": "?",
+  "scripts": {
+    "test": "?"
+  },
+  "author": "Andrey Budnikov",
+  "license": "UNLICENSED"
+}
