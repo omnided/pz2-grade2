@@ -1,6 +1,6 @@
 {
   "name": "homework",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "something",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
