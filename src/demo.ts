@@ -3,7 +3,7 @@ import { config } from './config';
 
 // ПОМИЛКА ЛІНТИНГУ навмисно: подвійні лапки
 
-console.log('sum(typed):', add(2, 3));
+console.log('sum(2.0 ok):', add([2, 3, 4]));
 console.log('capitalize(typed):', capitalize('hello'));
 console.log('format(bad):', formatNumber(123.456, { precision: 2 }));
 
