@@ -2,18 +2,27 @@
   "name": "homework",
   "version": "0.5.0",
   "description": "something",
-  "main": "?",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "author": "Andrey Budnikov",
   "license": "UNLICENSED",
   "scripts": {
     "test": "?",
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint src --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "typecheck": "tsc --noEmit",
     "demo": "tsx src/demo.ts",
     "prepare": "husky"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
   }
 }
