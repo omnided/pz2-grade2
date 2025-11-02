@@ -87,16 +87,10 @@ LOG_LEVEL=info
 - LOG_LEVEL: 'silent' | 'info' | 'debug' (за замовчуванням: 'info')
 
 ## Релізи
-- v0.1.0 - Базові утиліти з типами any
-
-- v0.2.0 - Строга типізація
-
-- v0.3.0 - Форматування чисел
-
-- v0.4.0 - Групування масивів
-
-- v0.5.0 - Система логування та конфігурація
-
-- v1.0.0 - Стабільне публічне API
-
-- v2.0.0 - Оновлена сигнатура функції add
+- [v0.1.0](https://github.com/omnided/pz2-grade2/releases/tag/v0.1.0) - Базові утиліти з типами any
+- [v0.2.0](https://github.com/omnided/pz2-grade2/releases/tag/v0.2.0) - Строга типізація
+- [v0.3.0](https://github.com/omnided/pz2-grade2/releases/tag/v0.3.0) - Форматування чисел
+- [v0.4.0](https://github.com/omnided/pz2-grade2/releases/tag/v0.4.0) - Групування масивів
+- [v0.5.0](https://github.com/omnided/pz2-grade2/releases/tag/v0.5.0) - Система логування та конфігурація
+- [v1.0.0](https://github.com/omnided/pz2-grade2/releases/tag/v1.0.0) - Стабільне публічне API
+- [v2.0.0](https://github.com/omnided/pz2-grade2/releases/tag/v2.0.0) - Оновлена сигнатура функції add
