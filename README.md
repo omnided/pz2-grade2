@@ -9,15 +9,13 @@
 npm i
 ```
 
-```text
-
 ### Запуск демо-прикладу
+```text
 npm run demo
 ```
 
-```text
-
 ### Збірка проекту
+```text
 npm run build
 ```
 
@@ -54,7 +52,7 @@ import { formatNumber } from 'ts-utils';
 console.log(formatNumber(123.456, { precision: 2 })); // "123.46"
 console.log(formatNumber(123.456, { precision: 0 })); // "123"
 ```
-Функція groupBy
+### Функція groupBy
 ```typescript
 import { groupBy } from 'ts-utils';
 
@@ -66,7 +64,7 @@ const users = [
 
 const groupedByAge = groupBy(users, user => user.age.toString());
 ```
-Клас Logger
+### Клас Logger
 ```typescript
 import { Logger } from 'ts-utils';
 
@@ -82,7 +80,7 @@ logger.debug('Extra debug info'); // [DEBUG] Extra debug info
 APP_PRECISION=2
 LOG_LEVEL=info
 ```
-Доступні значення:
+### Доступні значення:
 
 - APP_PRECISION: число від 0 до 10 (за замовчуванням: 2)
 
